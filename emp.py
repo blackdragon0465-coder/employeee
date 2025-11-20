@@ -1,7 +1,7 @@
 import sys
 
-if len(sys.argv) != 3:
-    print("Usage: python student.py <name> <id> <salary>")
+if len(sys.argv) != 4:
+    print("Usage: python emp.py <name> <id> <salary>")
     sys.exit(1)
 
 script_name = sys.argv[0]
